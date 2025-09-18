@@ -1,0 +1,13 @@
+{
+  "modInfo": {
+    "name": "Kick door",
+    "poster": "./poster.png",
+    "description": "arf",
+    "id": "12312312",
+    "url": "https://github.com/SamNewhouse"
+  },
+  "modelsDir": "./src/models",
+  "texturesDir": "./src/textures",
+  "soundDir": "./src/sound",
+  "scriptsDir": "./src/scripts"
+}
