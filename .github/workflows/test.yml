@@ -10,8 +10,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm
-          cache-dependency-path: package-lock.json
-      - run: npm install
-      - run: npm run check
-      - run: npm run compile
+          cache: pnpm
+      - run: npm install -g pnpm
+      - run: pnpm install
+      - run: pnpm run check
+      - run: pnpm run compile
